@@ -1,8 +1,8 @@
 import './App.css';
 import Card from './components/Card/Card';
 
-const picachu = {
-  title: "Picachu",
+const pikachu = {
+  title: "Pikachu",
   imgUrl: 
   "https://sm.ign.com/ign_br/screenshot/default/025pikachu-os-anime-10_5z4v.png",
 
@@ -19,11 +19,16 @@ const bulbasaur = {
 
 };
 
+const items = [pikachu,charmander,bulbasaur]
+
 function App() {
    return (
     <>      
       <h1>Pokédex</h1>      
-      <Card item={picachu} />
+      {items.map(function (item){
+        return <Card item={pikachu}
+      })}
+      <Card item={pikachu} />
       <Card item={charmander} />
       <Card item={bulbasaur} />
     </>

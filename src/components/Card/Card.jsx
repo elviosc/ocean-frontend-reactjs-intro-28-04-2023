@@ -1,11 +1,8 @@
 import "./Card.css";
 
 function Card(props) {
-  console.log("props", props);
-  const item = props.item;
-  console.log("item.title", item.title);
-  // eslint-disable-next-line react/prop-types
-  console.log("item.imgURL", item.imgURL);
+   
+  const item = props.item; 
 
     return (
         <div className='card'>
