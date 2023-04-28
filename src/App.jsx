@@ -26,11 +26,9 @@ function App() {
     <>      
       <h1>Pokédex</h1>      
       {items.map(function (item){
-        return <Card item={pikachu}
+        return <Card item={item} />
       })}
-      <Card item={pikachu} />
-      <Card item={charmander} />
-      <Card item={bulbasaur} />
+       
     </>
   )
 }
