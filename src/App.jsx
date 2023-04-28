@@ -15,7 +15,7 @@ const charmander = {
 
 const bulbasaur = {
   title: 'Bulbasaur',
-  imgUrl: 'https://th.bing.com/th/id/OIP.ry3-o0K6tCejpRrEfM2uLQHaIN?pid=ImgDet&rs=1',
+  imgUrl: 'https://th.bing.com/th/id/R.0d1af06414e491b95c8088dde38e3209?rik=6lbTccIDlpprzA&pid=ImgRaw&r=0',
 
 };
 
