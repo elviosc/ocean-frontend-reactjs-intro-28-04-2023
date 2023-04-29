@@ -25,12 +25,12 @@ function App() {
    return (
     <>      
       <h1>Pokédex</h1>      
-      {items.map(function (item){
-        return <Card item={item} />
+      {items.map(function (item, index){
+        return <Card item={item} key={`card_${index}`} />;
       })}
        
     </>
-  )
+  );
 }
 
 export default App
