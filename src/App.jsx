@@ -24,11 +24,12 @@ const items = [pikachu,charmander,bulbasaur]
 function App() {
    return (
     <>      
-      <h1>Pokédex</h1>      
+      <h1>Pokédex</h1>
+      <div className='cards'>  
       {items.map(function (item, index){
         return <Card item={item} key={`card_${index}`} />;
       })}
-       
+       </div>    
     </>
   );
 }
