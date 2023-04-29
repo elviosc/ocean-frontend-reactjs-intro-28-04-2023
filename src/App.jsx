@@ -3,19 +3,19 @@ import Card from './components/Card/Card';
 
 const pikachu = {
   title: "Pikachu",
-  imgUrl: 
+  imagemUrl: 
   "https://sm.ign.com/ign_br/screenshot/default/025pikachu-os-anime-10_5z4v.png",
 
 };
 const charmander = {
   title: 'Charmander',
-  imgUrl: 'https://th.bing.com/th/id/OIP.ry3-o0K6tCejpRrEfM2uLQHaIN?pid=ImgDet&rs=1',
+  imagemUrl: 'https://th.bing.com/th/id/OIP.ry3-o0K6tCejpRrEfM2uLQHaIN?pid=ImgDet&rs=1',
 
 };
 
 const bulbasaur = {
   title: 'Bulbasaur',
-  imgUrl: 'https://th.bing.com/th/id/R.0d1af06414e491b95c8088dde38e3209?rik=6lbTccIDlpprzA&pid=ImgRaw&r=0',
+  imagemUrl: 'https://th.bing.com/th/id/R.0d1af06414e491b95c8088dde38e3209?rik=6lbTccIDlpprzA&pid=ImgRaw&r=0',
 
 };
 

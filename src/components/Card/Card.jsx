@@ -9,7 +9,7 @@ function Card(props) {
         <h2>{item.title}</h2>
         <img 
         width="150" 
-        src={item.imgURL} />
+        src={item.imagemUrl} />
       </div>
     );
     
